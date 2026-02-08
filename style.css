@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+   font-family: 'Share Tech Mono', monospace;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  position: relative;
+  background-color: black;
+}
+
+
+#text-box {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 90%;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1.6;
+  padding: 15px 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+#choices {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+#choices button {
+  background-color: #1f0505;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#choices button:hover {
+  background-color: #c75407;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+.center-text {
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
